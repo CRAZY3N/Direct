@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direct CS - Contact Us</title>
+    <!-- ICON -->
+    <link rel="shortcut icon" href="icon/dcsi.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/17860883e4.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+    <!-- Img -->
+    <!-- <a href='https://www.freepik.es/fotos/tarjeta-visita'>Foto de Tarjeta de visita creado por snowing - www.freepik.es</a> -->
+
+<body>
+    <!-- Header & nav -->
+    <header class="header">
+        <div class="menu-movil"><p><i id="menu-movil" class="fas fa-bars"></i></p></div>
+        <div class="contenedor header-panel">
+            <div class="logo">
+                <a href="index.html"><img src="img/dcs.png" alt=""></a>
+            </div>            
+            <nav class="nave" id="nave">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Sobre Nosotros</a>
+                <!-- <a href="#servicios">Servicios</a> -->
+                <!-- <a href="#tarjeta">Tarjeta</a> -->
+                <!-- <a href="#noticias">Noticias</a> -->
+                <a href="#">Contacto</a>
+                <a href="contact.html">Ingles</a>
+            </nav>
+        </div>
+        <div class="contenedor header-conte">
+            <h4>Una nueva forma de vivir</h4>
+            <p>Nosotros queremos ser parte de ese mercado, donde con nuestra experiencia y la experiencia de nuestros colaboradores logramos añadir valor agregado a este modelo</p>
+        </div>
+    </header> <!-- Fin header & nav -->
+
+
+
+    <!-- Contactanos -->
+    <div class="inicio-contacto contacto">
+        <form class="formulario-contacto" name="formulario" action="funtions/mail.php" method="post">
+            <p>Solicita tu tarjeta aquí por este medio</p>
+            <div class="campo">
+                <label for="nombre">Nombre (名字): </label>
+                <input type="text" name="nombre" id="nombre" required="required" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="campo">
+                <label for="email">Email (电子邮箱): </label>
+                <input type="email" name="email" id="email" required="required" placeholder="Ingresa tu correo electrónico">
+            </div>
+            <div class="campo">
+                <label for="telefono">Número de celular (墨西哥手机号码): </label>
+                <input type="tel" name="telefono" id="telefono" required="required" placeholder="Ingresa tu número de teléfono">
+            </div>
+            <div class="campo">
+                <label for="mensaje">Mensaje (疑问): </label>
+                <textarea name="mensaje" required="required" id="mensaje">Ingresa tu mensaje</textarea>
+            </div>
+            <input class="btn btn-enviar" type="submit" value="Enviar">
+        </form>
+    </div><!-- Fin contactanos -->
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contenedor g gp g-3">
+            <div class="flogo">
+                <a href="index.html"><img src="img/dcs.png" alt="logo"></a>
+            </div>
+            <div class="fdireccion">
+                <h4>Dirección:</h4>
+                <p>Leibnitz 11, Interior 603, Colonia Anzures, Alcaldía Miguel Hidalgo, CP: 11590, CDMX, México</p>
+                <h4>Redes Sociales</h4>
+                <p><a target="_blank" href="https://www.facebook.com/atencionaclientesDomi"><img src="icon/facebook.png" alt=""></a> <a target="_blank" href="https://www.instagram.com/domi_consulting_services/?igshid=1tss9tl70o2f3"><img src="icon/instagram.png" alt=""></a></p>
+            </div>
+            <div class="fcontacto">
+                <h4>Contactanos</h4>
+                <p><img src="icon/whatsapp.png" alt="Teléfono"> +52 55 7095 5061</p>
+                <p><img src="icon/whatsapp.png" alt="Teléfono"> +52 55 8848 9774</p>
+                <p><img src="icon/whatsapp.png" alt="Teléfono"> +52 1 55 2710 0733</p>
+                <p><img src="icon/correo-electronico.png" alt="Correo electrónico"> atencionaclientes@direct-cs.com.mx</p>
+            </div>
+        </div>
+        <div class="autor"><p>Direct Consulting and Services 2018 - Copyright © <a target="_blank" href="https://emmdeveloper.netlify.app/">DD-WEB</a></p></div>
+    </footer>
+    <!-- Fin footer -->
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
